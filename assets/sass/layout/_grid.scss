@@ -1,0 +1,26 @@
+//Smartphone Size
+@media (min-width: 320px) {
+    .container {
+        box-sizing: content-box;
+        width: 300px;
+
+    }
+}
+
+//Tablet Size
+@media (min-width: 768px) {
+
+    .container {
+        box-sizing: content-box;
+        width: 748px;
+
+    }
+}
+
+//Desktop Size
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+
+    }
+}

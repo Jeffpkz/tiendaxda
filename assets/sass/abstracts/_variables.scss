@@ -1,0 +1,43 @@
+// Esquema de Colores
+
+// Primer bloque de Colores
+$white: #FFF;
+$Isabelline: #ECECEC;
+$Light-gray: #D1D1D1;
+
+// Segundo Bloque de Colores
+$Smoky-black: #0C0910;
+$Granite-Gray: #646266;
+$Quick-Silver: #A6A5A8;
+
+// Tipografias
+
+$old-standard: 'Old Standard TT', serif;
+$raleway: 'Raleway', sans-serif;
+
+// Pesos de Fuentes
+$bold: 700;
+$regular: 400;
+
+// Tamaños de fuentes
+
+$xxx-large: 50px;
+$xx-large: 30px;
+$x-large: 20px;
+$large: 18px;
+$medium: 16px;
+$x-small: 14px;
+$small: 12px;
+
+//Breakpoints
+
+$min-phone: 320px;
+$min-tablet: 768px;
+$min-desktop: 1200px;
+
+$breakpoints: (
+    'small': 320px,
+    'medium': 768px,
+    'x-large': 1200px,
+);
+

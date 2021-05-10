@@ -1,0 +1,155 @@
+@media (min-width: 320px) {
+
+    .footer {
+        box-sizing: content-box;
+        background-color: $Smoky-black;
+        color: $Isabelline;
+        font-family: $old-standard;
+        padding-top: 1.5rem;
+        width: 95%;
+        height: 50%;
+        margin-top: -5rem;
+        position: relative;
+        top: 20px;
+        left: -40px;
+        text-align: left;
+        padding-bottom: 2.5rem;
+    }
+
+    p {
+        font-family: $old-standard;
+    }
+    
+    h2 {
+        padding-left: 3.5rem;
+        padding-top: 0.4rem;
+    }
+    
+    .email {
+        padding-left: 3.5rem;
+        padding-top: 1rem;
+    }
+    .box {
+        padding-left: 3.5rem;
+        padding-bottom: 2.5rem;
+        margin-top: -1rem;
+    
+    }
+   
+    .subscription {
+        color: $Smoky-black;
+        font-weight: $bold;
+        font-size: x-large;
+        box-sizing: content-box;
+        position: relative;
+        top: 15px;
+        left: 111px;
+        transform: rotate(90deg);
+    }
+
+}
+
+@media (min-width: 768px) {
+
+        .footer {
+            box-sizing: content-box;
+            background-color: $Smoky-black;
+            color: $Isabelline;
+            font-family: $old-standard;
+            padding-top: 1.5rem;
+            width: 90%;
+            height: 70%;
+            margin: 0 auto;
+            position: relative;
+            top: 20px;
+            left: -40px;
+            text-align: left;
+            padding-bottom: 2.5rem;
+        }
+
+        p {
+            font-family: $old-standard;
+        }
+        
+        h2 {
+            font-size: 3rem;
+            padding-left: 3.5rem;
+            padding-top: 0.4rem;
+        }
+        
+        .email {
+            font-size: 1.5rem;
+            padding-left: 3.5rem;
+            padding-top: 1rem;
+        }
+        .box {
+            padding-left: 3.5rem;
+            padding-bottom: 2.5rem;
+            margin-top: -1rem;
+            width: 60%;
+        
+        }
+       
+        .subscription {
+            color: $Smoky-black;
+            font-weight: $bold;
+            font-size: 2rem;
+            box-sizing: content-box;
+            position: relative;
+            top: 170px;
+            left: 311px;
+            transform: rotate(90deg);
+        }
+
+    }
+
+@media (min-width: 1200px) {
+
+.footer {
+    box-sizing: content-box;
+    background-color: $Smoky-black;
+    color: $Isabelline;
+    font-family: $old-standard;
+    padding-top: 1.5rem;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -785px;
+    left: -445px;
+    text-align: left;
+    padding-bottom: 2.5rem;
+}
+
+p {
+    font-family: $old-standard;
+}
+
+h2 {
+    padding-left: 6.5rem;
+    padding-top: 0.4rem;
+}
+
+.email {
+    padding-left: 6.5rem;
+    padding-top: 1rem;
+}
+.box {
+    padding-left: 6.5rem;
+    padding-bottom: 2.5rem;
+    margin-top: -1rem;
+
+}
+
+.subscription {
+    color: $Smoky-black;
+    font-weight: $bold;
+    font-size: x-large;
+    box-sizing: content-box;
+    position: relative;
+    top: -400px;
+    left: -140px;
+    transform: rotate(90deg);
+}
+}
+

@@ -1,0 +1,214 @@
+@media (min-width: 320px) {
+    .navigation {
+        position : relative;
+        }
+    
+    .navigation__logo {
+        position : absolute;
+        top : .9em;
+        left : 2.5em;
+        width: 4rem;
+        }
+    
+    .collapsible {
+        text-align : right;
+        margin-left: auto;
+    
+        label {
+        display : block;
+        padding-top : .5em ;
+        padding-bottom : .5em ;
+        padding-right : 1.5em ;
+        font-size : 1.8rem ;
+        }
+        }
+    
+    #menu {
+        display : none;
+        }
+    
+    input:checked~.navigation__container {
+         max-height : 100%;
+         }
+    
+    .navigation__container {
+        max-height : 0;
+        padding : 0;
+        overflow : hidden;
+        }
+    
+    .navigation__list {
+        list-style-type:none;
+    }
+    
+    .navigation__item {
+        a {
+        display : block;
+        text-align : left;
+        padding : .5em;
+        font-family : $raleway;
+        font-size : 1.2rem;
+        font-weight : $bold;
+        color : $Smoky-black;
+        text-decoration : none;
+        
+        &:hover {
+        color : $Granite-Gray;
+        }
+        }
+        }
+
+        h1 {
+            font-family: $old-standard;
+            font-weight: $bold;
+            padding-left: 1rem;
+            padding-top: 3rem;
+            font-size: 1.8rem;
+            text-align: left;
+        }
+        
+        .Main {
+            box-sizing: content-box;
+            width: 14.375rem;
+            margin: 0 auto ;
+            position: relative;
+            top: -20px;
+            left: -20px;
+            text-align: left;
+            }
+        
+        .Main__phrase{
+            font-family: $raleway;
+            font-weight: $regular;
+            font-size: 1rem;
+            text-align: left;
+            padding-left: 1.5rem;
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+        
+        }
+
+}
+
+@media (min-width: 768px) {
+
+    .navigation {
+        position : relative;
+        }
+    
+    .navigation__logo {
+        position : absolute;
+        top : .9em;
+        left : 2.5em;
+        width: 8rem;
+        }
+    
+    .collapsible {
+        text-align : right;
+        margin-left: auto;
+    
+        label {
+        display : block;
+        padding-top : .5em ;
+        padding-bottom : .5em ;
+        padding-right : 1.5em ;
+        font-size : 1.8rem ;
+        }
+        }
+    
+    #menu {
+        display : none;
+        }
+    
+    input:checked~.navigation__container {
+         max-height : 100%;
+         }
+    
+    .navigation__container {
+        max-height : 0;
+        padding : 0;
+        overflow : hidden;
+        }
+    
+    .navigation__list {
+        list-style-type:none;
+    }
+    
+    .navigation__item {
+        a {
+        display : block;
+        text-align : left;
+        padding : .5em;
+        font-family : $raleway;
+        font-size : 1.2rem;
+        font-weight : $bold;
+        color : $Smoky-black;
+        text-decoration : none;
+        
+        &:hover {
+        color : $Granite-Gray;
+        }
+        }
+        }
+    }
+    
+@media (min-width: 1200px) {
+.navigation {
+    position : relative;
+    }
+
+.navigation__logo {
+    position : absolute;
+    top : .9em;
+    left : 2.5em;
+    }
+
+.collapsible {
+    text-align : right;
+    margin-left: auto;
+
+    label {
+    display : block;
+    padding-top : .5em ;
+    padding-bottom : .5em ;
+    padding-right : 1.5em ;
+    font-size : 1.8rem ;
+    }
+    }
+
+#menu {
+    display : none;
+    }
+
+input:checked ~ .navigation__container {
+     max-height : 100%;
+     }
+
+.navigation__container {
+    max-height : 0;
+    padding : 0;
+    overflow : hidden;
+    }
+
+.navigation__list {
+    list-style-type:none;
+}
+
+.navigation__item {
+    a {
+    display : block;
+    text-align : left;
+    padding : .5em;
+    font-family : $raleway;
+    font-size : 1.2rem;
+    font-weight : $bold;
+    color : $Smoky-black;
+    text-decoration : none;
+    
+    &:hover {
+    color : $Granite-Gray;
+    }
+    }
+    }
+}
+
